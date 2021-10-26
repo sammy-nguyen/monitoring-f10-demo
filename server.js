@@ -23,7 +23,7 @@ app.get("/", (req, res) => {
 
 app.get('/style', (req, res) =>{
     let {name} = req.body
-    res.sendFile(path.join(__dirname, '/public.styles.css'))
+    res.sendFile(path.join(__dirname, '/public/styles.css'))
 })
 
 
